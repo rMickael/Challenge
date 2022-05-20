@@ -1,0 +1,63 @@
+@charset "utf-8";
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 90vh;
+    background-image: url(team.jpg);
+    background-size: 800px;
+    background-repeat: no-repeat;
+    background-position:center right;
+}
+
+
+header> h1 {
+    margin: 50px;
+    color:#D2872C;
+}
+
+header >ul {
+    display: flex;
+    list-style: none;
+    justify-content: right;
+    margin-top: -100px;
+    padding-right: 50px;
+    font-size: 1.3em;
+    color: #766F68;
+         
+}
+
+header>ul>li {
+    padding: 10px;
+}
+
+
+main {
+    padding: 50px;
+    margin-left: 50px;
+    color: #766F68;
+    min-width: 300px;
+    max-width: 800px;     
+}
+h1#principal {
+    font-size: 3em;
+    text-align: justify;
+}
+
+main p {
+    text-align: justify;
+    font-size: 1.5em;
+
+}
+
+#botao {
+    width: 200px;
+    text-align: center;
+    padding: 15px 30px;
+    border-radius: 10px;
+    background-color: #D2872C;
+    color: white;
+    font-size: 22px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
